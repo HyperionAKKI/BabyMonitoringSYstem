@@ -2,8 +2,20 @@ Baby Monitoring System 👶🔔
 A smart baby monitoring solution designed to assist hearing-impaired parents by detecting baby cries and providing immediate alerts through vibration and LED indicators.
 
 
+
 🧠 Project Overview
 This system employs a sound sensor calibrated to the frequency range of baby cries. Upon detection, it activates a vibration motor and an LED light to notify parents who may not hear the baby's cries.
+
+What is Happening->
+
+Sound Sensor detect frequency of baby crying(babies cry on a fixed scale of frequencies).
+
+Noise suppression using damping scale on noise sensor.
+
+The sound sensor then responds by sending the frequency on Serial Monitor.
+
+A LED is blinked and a motor is activated.
+
 
 
 🎯 Features
@@ -14,6 +26,7 @@ Vibration Alert: Activates a vibration motor to provide tactile feedback.
 Visual Indicator: Illuminates an LED to offer a visual cue.
 
 Real-Time Response: Ensures immediate alerts upon detection.
+
 
 
 🛠️ Hardware Components
@@ -38,7 +51,9 @@ Main Script: BabyMonitoringSystem.ino
 Video Demonstration: BabyMonitoringSystemVideo.mp4
 
 
+
 📂 Repository Structure
+
 
 
 BabyMonitoringSYstem/
@@ -54,7 +69,8 @@ git clone https://github.com/HyperionAKKI/BabyMonitoringSYstem.git
 3. Upload Firmware: Use the Arduino IDE to upload BabyMonitoringSystem.ino to your microcontroller.
 4. Test the System: Simulate baby cries to ensure the vibration and LED activate accordingly.
 
-   
+
+
 📹 Demonstration
 For a visual demonstration of the system in action, refer to the BabyMonitoringSystemVideo.mp4 file included in the repository.
 
@@ -63,3 +79,4 @@ This project is open-source and available under the MIT License.
 
 🙏 Acknowledgments
 Developed by HyperionAKKI to provide an accessible solution for hearing-impaired parents
+

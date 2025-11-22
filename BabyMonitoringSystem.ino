@@ -1,4 +1,5 @@
-int soundSensorPin = 2; 
+
+*int soundSensorPin = 2; 
 #include <ezLED.h>
 ezLED led(7);
 void setup() {
