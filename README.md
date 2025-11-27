@@ -7,7 +7,7 @@ A smart baby monitoring solution designed to assist hearing-impaired parents by 
 This system employs a sound sensor calibrated to the frequency range of baby cries. Upon detection, it activates a vibration motor and an LED light to notify parents who may not hear the baby's cries.
 
 What is Happening->
-
+(Earliest Implementation)
 Sound Sensor detect frequency of baby crying(babies cry on a fixed scale of frequencies).
 
 Noise suppression using damping scale on noise sensor.
@@ -15,7 +15,10 @@ Noise suppression using damping scale on noise sensor.
 The sound sensor then responds by sending the frequency on Serial Monitor.
 
 A LED is blinked and a motor is activated.
-
+(Current Implementation)
+Sensor detect noise-> model distinguishes between a baby cry and any other sound.
+if Cry detected then model run on the file finding the reason for crying.
+reason is sent to parents using communication over protocols.
 
 
 🎯 Features
